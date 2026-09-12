@@ -1,0 +1,15 @@
+# ===== Keil MDK 编译产物 =====
+Objects/
+Listings/
+DebugConfig/
+*.uvguix.*
+EventRecorderStub.scvd
+
+# ===== Python =====
+__pycache__/
+*.pyc
+
+# ===== 固件二进制（编译生成，不入库；App.bin 由 Keil fromelf 生成后自行放入） =====
+OTA服务器/*.bin
+*.axf
+*.hex
